@@ -1,0 +1,11 @@
+framework module RegisterUserInfo {
+  umbrella header "RegisterUserInfo.h"
+
+  export *
+  module * { export * }
+}
+
+module RegisterUserInfo.Swift {
+    header "RegisterUserInfo-Swift.h"
+    requires objc
+}
