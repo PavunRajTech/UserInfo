@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         let user = UserDataInfo()
         let name = user.getUserDetailInfo()
+        print(name)
         print(name)
     }
 
