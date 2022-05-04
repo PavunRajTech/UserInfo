@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios15.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CreateUserData
+@_exported import CreateUserData
+import Foundation
+import Swift
+import _Concurrency
+open class RegisterUserdata {
+  public init()
+  public func getUserDetailInfo() -> CreateUserData.UserInfo
+  @objc deinit
+}
+public enum UserInfo : Swift.CaseIterable {
+  case user1
+  case user2
+  case user3
+  case user4
+  case user5
+  case user6
+  public static func == (a: CreateUserData.UserInfo, b: CreateUserData.UserInfo) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [CreateUserData.UserInfo]
+  public static var allCases: [CreateUserData.UserInfo] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension CreateUserData.UserInfo : Swift.Equatable {}
+extension CreateUserData.UserInfo : Swift.Hashable {}

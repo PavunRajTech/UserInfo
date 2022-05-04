@@ -13,18 +13,18 @@
 		F79287E9282248AC0056ADF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79287E7282248AC0056ADF0 /* Main.storyboard */; };
 		F79287EB282248AD0056ADF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79287EA282248AD0056ADF0 /* Assets.xcassets */; };
 		F79287EE282248AD0056ADF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79287EC282248AD0056ADF0 /* LaunchScreen.storyboard */; };
-		F7928828282263B00056ADF0 /* RegisterUserInfo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7928827282263B00056ADF0 /* RegisterUserInfo.xcframework */; };
-		F7928829282263B00056ADF0 /* RegisterUserInfo.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7928827282263B00056ADF0 /* RegisterUserInfo.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F79288442822A9EE0056ADF0 /* CreateUserData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79288432822A9EE0056ADF0 /* CreateUserData.xcframework */; };
+		F79288452822A9EE0056ADF0 /* CreateUserData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F79288432822A9EE0056ADF0 /* CreateUserData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F79288252822634F0056ADF0 /* Embed Frameworks */ = {
+		F79288462822A9EE0056ADF0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F7928829282263B00056ADF0 /* RegisterUserInfo.xcframework in Embed Frameworks */,
+				F79288452822A9EE0056ADF0 /* CreateUserData.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +41,7 @@
 		F79287ED282248AD0056ADF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F79287EF282248AD0056ADF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7928827282263B00056ADF0 /* RegisterUserInfo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RegisterUserInfo.xcframework; sourceTree = "<group>"; };
+		F79288432822A9EE0056ADF0 /* CreateUserData.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CreateUserData.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7928828282263B00056ADF0 /* RegisterUserInfo.xcframework in Frameworks */,
+				F79288442822A9EE0056ADF0 /* CreateUserData.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +90,7 @@
 		F79288222822634F0056ADF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F79288432822A9EE0056ADF0 /* CreateUserData.xcframework */,
 				F7928827282263B00056ADF0 /* RegisterUserInfo.xcframework */,
 			);
 			name = Frameworks;
@@ -104,7 +106,7 @@
 				F79287DA282248AC0056ADF0 /* Sources */,
 				F79287DB282248AC0056ADF0 /* Frameworks */,
 				F79287DC282248AC0056ADF0 /* Resources */,
-				F79288252822634F0056ADF0 /* Embed Frameworks */,
+				F79288462822A9EE0056ADF0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

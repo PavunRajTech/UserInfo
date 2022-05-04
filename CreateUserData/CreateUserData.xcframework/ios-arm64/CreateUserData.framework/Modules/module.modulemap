@@ -1,0 +1,11 @@
+framework module CreateUserData {
+  umbrella header "CreateUserData.h"
+
+  export *
+  module * { export * }
+}
+
+module CreateUserData.Swift {
+    header "CreateUserData-Swift.h"
+    requires objc
+}
